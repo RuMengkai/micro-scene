@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+.slide1{
+	background:#083846;
+}
+.slide2{
+	background: #9261bf;
+}
+.slide3{
+	background: #f3533c;
+}
+.slide4{
+	background: #ffbf50;
+}
+.slide5{
+	background: #083846;
+}
+.cover{
+	width: 80%;
+	height: 50%;
+	left: 10%;
+	top: 2%;
+}
+.wording_cover{
+	width: 60%;
+	height: 24%;
+	left: 20%;
+	bottom:14% ;
+}
+.icon_up{
+	width: 7%;
+	height: 2%;
+	left: 47%;
+	bottom: 2%;
+}
+.wording{
+	width: 50%;
+	height: 20%;
+	left: 25%;
+	top: 4%;
+}
+.circle{
+	width: 70%;
+	height: 40%;
+	left: 15%;
+	top: 32%;
+}
+.circle-production{
+	width: 70%;
+	height: 40%;
+	left: 15%;
+	top: 28%;
+}
+.people{
+	width: 74%;
+	height: 40%;
+	left: 16%;
+	top: 38%;
+}
+.people_design{
+	width: 54%;
+	height: 44%;
+	left: 36%;
+	top: 32%;
+}
+.people_production{
+	width: 50%;
+	height: 38%;
+	left: 26%;
+	top: 28%;
+}
+.check_develop{
+	width: 50%;
+	height: 3%;
+	left: 24%;
+	bottom: 12%;
+}
+.music{
+	width: 9%;
+	height: 4%;
+	right: 8%;
+	top: 4%;
+	z-index: 900;
+	position: fixed;
+}
+#small{
+	width: 6%;
+	height: 3%;
+	right: 14%;
+	top: 4%;
+	z-index: 900;
+	position: fixed;
+	animation: small infinite 1s both;
+}
+@keyframes small{
+	0{transform: translateY(0) rotate(0);}
+	20%{transform: translateY(-10px) rotate(30deg);}
+	40%{transform: translateY(-20px) rotate(0);}
+	60%{transform: translateY(-30px) rotate(-30deg);}
+	80%{transform: translateY(-40px) rotate(0);}
+	100%{transform: translateY(-50px) rotate(30deg);}
+}
+#infinite{
+	animation-iteration-count: infinite;
+}
+.floating_develop{
+	width: 80%;
+	height: 56%;
+	left: 15%;
+	top:14% ;
+}
+.floating_design{
+	width: 80%;
+	height: 25%;
+	left: 15%;
+	top:42% ;
+}
+.floating_production{
+	width: 80%;
+	height: 34%;
+	left: 10%;
+	top:34% ;
+}
+.btn_develop{
+	width: 80%;
+	height: 8%;
+	left: 10%;
+	bottom:16% ;
+}
+.introduction{
+	width: 90%;
+	height: 62%;
+	left: 5%;
+	top: 5%;
+}
+.shadow{
+	width: 60%;
+	height: 6%;
+	left: 20%;
+	bottom: 20%;
+}
+.pic_back{
+	width: 90%;
+	height:42% ;
+	left: 6%;
+	top:20% ;
+}
+.btn_join{
+	width: 80%;
+	height:7% ;
+	left: 10%;
+	bottom:26% ;
+}
